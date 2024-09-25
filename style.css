@@ -66,9 +66,15 @@ background-color: #2f363e;
   align-items: center;
   font-size: 3em;
   color: #fff7;
+  transition: 0.5s;
 }
 
-
+.container .card:hover .box .icon {
+  background-color: #2f363e;
+  color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25),
+    inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+}
 
 .container .card .box .content {
   margin-top: 20px;
