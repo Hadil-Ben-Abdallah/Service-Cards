@@ -85,13 +85,20 @@ background-color: #2f363e;
   font-size: 1.25em;
   text-transform: uppercase;
   letter-spacing: 1px;
+  transition: 0.5s;
 }
 
 .container .card .content p {
   color: #fff7;
   margin-top: 10px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.container .card:hover .content h2,
+.container .card:hover .content p {
+  color: #fff;
 }
 
 .container .card .content a {
